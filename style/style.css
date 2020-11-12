@@ -1,7 +1,7 @@
 #header{
     margin: 0 auto;
     color: #055582;
-    padding: 30px;
+    padding: 60px;
     background: #e5e5e5;
 }
 
@@ -15,8 +15,8 @@
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    width: calc(100vw - 60px);
-    padding-left: 30px;
+    width: calc(100vw - 120px);
+    padding-left: 60px;
 }
 
 .flexCon > p {
@@ -73,6 +73,13 @@
     opacity: 0.5;
 }
 
+hr{
+    width: calc(100vw - 120px);
+    /* padding-left: 30px; */
+    margin: 0 auto;
+    border-top: 1px solid #055582;
+}
+
 #footer{
     text-align: center;
     color: #055582;
@@ -83,6 +90,10 @@
 #footer p{
     padding: 10px;
     font-size: 10px;
+}
+
+#main{
+    background: #e5e5e5;
 }
 
 .modalWrap{
