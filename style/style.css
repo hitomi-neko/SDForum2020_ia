@@ -1,8 +1,18 @@
 #header{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     color: #055582;
-    padding: 60px;
     background: #e5e5e5;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 90px;
+
+    /* position: absolute; */
+    /* width: 1058px; */
+    /* height: 292px; */
+    left: 90px;
+    top: 100px;
 }
 
 #header p{
@@ -23,6 +33,45 @@
     background: #e5e5e5;
 }
 
+#left{
+    font-size: 3.0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 318px;
+    height: 292px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 100px 0px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 500px;
+    height: 217px;
+    left: 418px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 100px 0px;
+}
 
 .flexCon{
 	display: flex;
