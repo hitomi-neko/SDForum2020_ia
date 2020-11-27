@@ -42,10 +42,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding-left: 10px;
+    border-left: 10px solid #055582;
 
     position: static;
-    width: 318px;
+    width: 308px;
     height: 292px;
     left: 0px;
     top: 0px;
@@ -65,9 +66,9 @@
     padding: 0px;
 
     position: static;
-    width: 500px;
-    height: 217px;
-    left: 418px;
+    width: calc(100% - 418px);
+    /* height: 217px; */
+    /* left: 418px; */
     top: 0px;
 
     flex: none;
@@ -200,22 +201,26 @@ hr{
     width: 80%;
     text-align: left;
     margin: 0 auto;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #055582;
+    /* border-left: 3px solid #055582; */
 }
 
 .modalCap{
     width: 80%;
     text-align: left;
+    padding-top: 5px;
     margin: 0 auto;
     font-size: 1.0rem;
     color: #055582;
+    /* border-left: 3px solid #055582; */
 }
 
 .modalSent{
-    font-size: 0.8rem;
-    padding-bottom: 10px;
+    font-size: 0.7rem;
+    padding-bottom: 15px;
     width: 80%;
+    padding-top: 15px;
     text-align: left;
     margin: 0 auto;
     color: #055582;
