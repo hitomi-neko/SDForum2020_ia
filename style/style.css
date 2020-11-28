@@ -46,7 +46,7 @@
     border-left: 10px solid #055582;
 
     position: static;
-    width: 308px;
+    width: 298px;
     height: 292px;
     left: 0px;
     top: 0px;
@@ -243,6 +243,39 @@ hr{
 
 /* レスポンシブ */
 @media screen and (max-width: 959px) {
-	/* 959px以下に適用されるCSS（タブレット用） */
+    /* 959px以下に適用されるCSS（タブレット用） */
+
+    #header{
+        /* margin: 0 auto; */
+        color: #055582;
+        background: #e5e5e5;
+
+        display: block;
+
+        padding-left: 90px;
+        left: 90px;
+        top: 100px;
+    }
+
+    #left{
+        width: calc(100%-180px);
+        display: block;
+    }
+
+    #right{
+        display: block;
+        position: static;
+        width: 90%;
+        /* width: calc(100%-360px); */
+        /* margin: 100px 0px; */
+    }
+
+    #mainContent{
+        background: #e5e5e5;
+    }
+
+    *{
+        background: #e5e5e5;
+    }
 }
 
