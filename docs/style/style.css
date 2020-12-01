@@ -262,21 +262,23 @@ hr{
         background: #e5e5e5;
 
         display: block;
-
-        padding-left: 90px;
-        left: 90px;
+        margin: 0,auto;
+        /* padding-left: 60px; */
+        /* left: 60px; */
         top: 100px;
     }
 
     #left{
-        width: calc(100%-180px);
+        /* width: calc(100%-120px); */
         display: block;
+        width: 90%;
     }
 
     #right{
         display: block;
         position: static;
-        width: calc(100%-180px);
+        /* width: calc(100%-120px); */
+        width: 90%;
         /* width: calc(100%-360px); */
         /* margin: 100px 0px; */
     }
@@ -287,6 +289,30 @@ hr{
 
     *{
         background: #e5e5e5;
+    }
+}
+   
+@media screen and (max-width: 480px) {
+    .flexCon > p {
+        margin: 0 auto;
+        margin-top: 10px;
+        /* width: 320px; */
+        width: 90%;
+        height: 23px;
+        padding: 15px;
+        /* color: #ffffff; */
+    }
+
+    .flexItem{
+        /* width: 320px; */
+        width: 90%;
+        /* height: 320px; */
+        height: auto;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* background: #ffffff; */
     }
 }
 
