@@ -184,7 +184,7 @@ hr{
 .modalCon{
     width: 85%;
     margin: 0 auto;
-    background: #ffffff;
+    background: #e5e5e5;
     max-height: calc(100vh - 30px);
     overflow-y: scroll;
 }
