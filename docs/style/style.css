@@ -266,6 +266,7 @@ hr{
         padding-left: 90px;
         left: 90px;
         top: 100px;
+        width: calc(100%-180px);
     }
 
     #left{
