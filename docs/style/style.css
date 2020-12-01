@@ -266,7 +266,6 @@ hr{
         padding-left: 90px;
         left: 90px;
         top: 100px;
-        width: calc(100%-180px);
     }
 
     #left{
@@ -277,7 +276,7 @@ hr{
     #right{
         display: block;
         position: static;
-        width: 90%;
+        width: calc(100%-180px);
         /* width: calc(100%-360px); */
         /* margin: 100px 0px; */
     }
