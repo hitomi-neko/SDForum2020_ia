@@ -77,6 +77,12 @@
     margin: 100px 0px;
 }
 
+.flex{
+    width: calc(100%-180px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .flexCon{
 	display: flex;
     flex-wrap: wrap;
