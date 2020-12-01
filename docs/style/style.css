@@ -140,6 +140,10 @@
     opacity: 0.5;
 }
 
+.name-ja{
+    font-weight: 600;
+}
+
 hr{
     width: calc(100vw - 120px);
     /* padding-left: 30px; */
