@@ -277,12 +277,13 @@ hr{
 
     #left{
         display: block;
-        width: 85vw;
+        width: calc(90vw - 20px);
         height: auto;
+        padding-left: 10px;
         margin-left: 5vw;
         margin-right: 0px;
         font-size: 50px;
-        padding: 0px;
+        padding-right: 0px;
     }
 
     #right{
