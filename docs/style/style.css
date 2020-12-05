@@ -296,6 +296,15 @@ hr{
     *{
         background: #e5e5e5;
     }
+
+    
+    hr{
+        width: 90vw;
+        /* padding-left: 30px; */
+        margin: 0 auto;
+        border-top: 2px solid #055582;
+    }
+
 }
    
 @media screen and (max-width: 480px) {
@@ -326,13 +335,15 @@ hr{
         /* height: 320px; */
         height: auto;
         /* padding: 10px; */
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        margin-left: 5vw;
         margin-top: 10px;
         margin-bottom: 10px;
         /* background: #ffffff; */
     }
 
     .flexItem > p {
+        /* margin-left: 5vw; */
         font-size: 13px;
         margin: 0 auto;
         margin-top: 0px;
@@ -340,6 +351,7 @@ hr{
     }
 
     .flexItem > img{
+        /* margin-left: 5vw; */
         /* width: 320px;
         height: 180px; */
         width: 90vw;
