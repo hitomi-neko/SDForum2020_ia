@@ -275,6 +275,8 @@ hr{
         width: 90vw;
         margin: 0, auto;
         padding: 0;
+        font-size: 25px;
+        height: auto;
     }
 
     #right{
