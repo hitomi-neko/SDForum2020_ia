@@ -30,6 +30,7 @@ for (let i = 1; i < 13; i++) {
         closeBtn.classList.add('modalCloseBtn');
         closeBtn.classList.remove('modalWrap');
         body.style.overflow = 'hidden';
+        main.style.overflow = 'hidden';
         main.style.opacity = '0.5';
         main.style.filter = 'blur(3px)';
         closePopUp(closeBtn);
@@ -55,6 +56,7 @@ for (let i = 1; i < 13; i++) {
                 closeBtn.classList.remove('modalCloseBtn');
                 closeBtn.classList.add('modalWrap');
                 body.style.overflow = 'visible';
+                main.style.overflow = 'visible';
                 main.style.opacity = '1.0';
                 main.style.filter = 'blur(0px)';
             })
