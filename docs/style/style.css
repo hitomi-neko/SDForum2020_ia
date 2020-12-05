@@ -303,6 +303,11 @@ hr{
         border-top: 2px solid #055582;
     }
 
+    * {
+        margin: 0px;
+        padding: 0px;
+        /* overflow-x: hidden; */
+    }
 }
    
 @media screen and (max-width: 480px) {
@@ -336,7 +341,9 @@ hr{
         padding-top: 10px;
         height: auto;
         /* padding: 10px; */
-        margin: 0 auto;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
         margin-top: 10px;
         margin-bottom: 10px;
         /* background: #ffffff; */
@@ -346,14 +353,13 @@ hr{
         width: 90vw;
         /* margin-left: 5vw; */
         font-size: 11px;
-        margin: 0 auto;
+        margin: 0px;
         padding: 0px;
-        margin-top: 0px;
         color: #055582;
     }
 
     .flexItem > img{
-        /* margin-left: 5vw; */
+        margin-left: 0px;
         /* width: 320px;
         height: 180px; */
         margin: 0 auto;
@@ -371,6 +377,12 @@ hr{
         padding: 0px;
         background: #ffffff;
         color: #055582;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        /* overflow-x: hidden; */
     }
 }
 
