@@ -47,8 +47,8 @@
     border-left: 10px solid #055582;
 
     position: static;
-    width: 298px;
-    height: 292px;
+    width: 280px;
+    height: 300px;
     left: 0px;
     top: 0px;
     /* Inside Auto Layout */
@@ -250,6 +250,7 @@ hr{
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 /* レスポンシブ */
@@ -348,7 +349,7 @@ hr{
         height: auto;
         /* padding: 10px; */
         /* margin: 0 auto; */
-        margin-left: 5vw;
+        /* margin-left: 5vw; */
         margin-top: 10px;
         margin-bottom: 10px;
         /* background: #ffffff; */
@@ -369,7 +370,6 @@ hr{
         width: 90vw;
         height: auto;
         object-fit: cover;
-        height: auto;
     }
 
     .flexCon > h3 {
