@@ -11,7 +11,6 @@
     /* position: absolute; */
     /* width: 1058px; */
     /* height: 292px; */
-    left: 90px;
     top: 100px;
 }
 
@@ -27,7 +26,7 @@
 }
 
 #right h1{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 #header a:hover{
@@ -130,7 +129,7 @@
 	margin: 0 auto;
     max-width: 55%;
     min-width: 15%;
-    padding: 5px;
+    padding-top: 5px;
     background: #ffffff;
     color: #055582;
 }
@@ -161,12 +160,14 @@ hr{
 #footer{
     text-align: center;
     color: #055582;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background: #e5e5e5;
 }
 
 #footer p{
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 10px;
 }
 
@@ -264,30 +265,26 @@ hr{
 
         display: block;
         margin: 0,auto;
-        /* padding-left: 60px; */
-        /* left: 60px; */
         top: 100px;
         padding-left: 0px;
     }
 
     #left{
-        /* width: calc(100%-120px); */
         display: block;
         width: 90vw;
-        /* padding: 0; */
-        /* font-size: 25px; */
         height: auto;
         margin-left: 5vw;
+        font-size: 55px;
+        padding-right: 0px;
     }
 
     #right{
         display: block;
         position: static;
-        /* width: calc(100%-120px); */
         width: 90vw;
-        /* width: calc(100%-360px); */
-        /* margin: 100px 0px; */
         padding-left: 5vw;
+        padding-right: 0px;
+        margin: 0;
     }
 
     #mainContent{
@@ -318,7 +315,7 @@ hr{
         align-items: center;
         width: 90vw;
         padding-left: 5vw;
-        /* margin: 0,auto; */
+        margin: 0,auto;
     }
 
     .flexCon > p {
@@ -327,6 +324,7 @@ hr{
         /* width: 320px; */
         width: 90vw;
         height: 23px;
+        padding: 0px;
         /* padding: 15px; */
         /* color: #ffffff; */
     }
@@ -335,6 +333,7 @@ hr{
         /* width: 320px; */
         width: 90vw;
         /* height: 320px; */
+        padding-top: 10px;
         height: auto;
         /* padding: 10px; */
         margin: 0 auto;
@@ -343,22 +342,12 @@ hr{
         /* background: #ffffff; */
     }
 
-    .flexItem{
-        width: 90vw;
-        /* height: 320px; */
-        height: auto;
-        /* padding: 10px; */
-        /* margin: 0 auto; */
-        /* margin-left: 5vw; */
-        margin-top: 10px;
-        margin-bottom: 10px;
-        /* background: #ffffff; */
-    }
-
     .flexItem > p {
+        width: 90vw;
         /* margin-left: 5vw; */
-        font-size: 13px;
-        /* margin: 0 auto; */
+        font-size: 11px;
+        margin: 0 auto;
+        padding: 0px;
         margin-top: 0px;
         color: #055582;
     }
@@ -367,9 +356,11 @@ hr{
         /* margin-left: 5vw; */
         /* width: 320px;
         height: 180px; */
+        margin: 0 auto;
         width: 90vw;
         height: auto;
         object-fit: cover;
+        padding: 0px;
     }
 
     .flexCon > h3 {
@@ -377,6 +368,7 @@ hr{
         /* max-width: 55%;
         min-width: 15%;
         padding: 5px; */
+        padding: 0px;
         background: #ffffff;
         color: #055582;
     }
