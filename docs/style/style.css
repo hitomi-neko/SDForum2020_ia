@@ -308,6 +308,18 @@ hr{
 }
    
 @media screen and (max-width: 480px) {
+
+    
+    .flexCon{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        width: 90vw;
+        margin-left: 5vw;
+        /* margin: 0,auto; */
+    }
+
     .flexCon > p {
         margin: 0 auto;
         margin-top: 10px;
@@ -345,7 +357,7 @@ hr{
     .flexItem > p {
         /* margin-left: 5vw; */
         font-size: 13px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-top: 0px;
         color: #055582;
     }
