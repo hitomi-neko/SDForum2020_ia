@@ -315,9 +315,9 @@ hr{
     hr{
         width: 90vw;
         /* padding-left: 30px; */
-        padding-left: 5vw;
-        padding-right: 0px;
-        margin: 0px;
+        margin-left: 5vw;
+        padding: 0px;
+        margin-right: 0px;
         border-top: 2px solid #055582;
     }
 
