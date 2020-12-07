@@ -243,11 +243,12 @@ hr{
 }
 
 .modalCloseBtn{
-    width: 80%;
+    width: 95%;
     text-align: right;
     margin: 0 auto;
     font-size: 2.0rem;
     color: #055582;
+    padding-top: 5px;
     /* font-size: 20px; */
 }
 
