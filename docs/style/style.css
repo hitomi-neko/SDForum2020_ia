@@ -313,6 +313,25 @@ hr{
         margin: 0px;
     }
 
+    .modalTtl{
+        font-size: 1.0rem;
+    /* border-left: 3px solid #055582; */
+    }
+
+    .modalCap{
+        font-size: 0.9rem;
+        /* border-left: 3px solid #055582; */
+    }
+
+    .modalSent{
+        font-size: 0.6rem;
+    }
+
+    .modalCloseBtn{
+        font-size: 1.7rem;
+        /* font-size: 20px; */
+    }
+
     
     hr{
         width: 90vw;
@@ -325,7 +344,6 @@ hr{
     * {
         margin: 0px;
         padding: 0px;
-        background: #e5e5e5;
         /* overflow-x: hidden; */
     }
 }
