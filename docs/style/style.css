@@ -205,7 +205,7 @@ hr{
     overflow-y: scroll;
 }
 
-.modalCon::-webkit-scrollbar-thumb {
+.modalCon::-webkit-scrollbar-track {
     background:#e5e5e5;
 }
 
