@@ -97,15 +97,15 @@
 .flexCon > p {
     margin: 0 auto;
     margin-top: 10px;
-    width: 320px;
+    width: 330px;
     height: 23px;
     padding: 15px;
     /* color: #ffffff; */
 }
 
 .flexItem{
-    width: 320px;
-    height: 320px;
+    width: 330px;
+    height: 330px;
     padding: 10px;
     margin: 0 auto;
     margin-top: 10px;
@@ -121,7 +121,7 @@
 }
 
 .flexItem > img{
-    width: 320px;
+    width: 330px;
     height: 180px;
     object-fit: cover;
     height: auto;
