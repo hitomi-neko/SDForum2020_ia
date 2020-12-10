@@ -250,7 +250,7 @@ hr{
     width: 95%;
     text-align: right;
     margin: 0 auto;
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     color: #055582;
     padding-top: 5px;
     /* font-size: 20px; */
@@ -276,7 +276,7 @@ hr{
         display: block;
         margin: 0px;
         top: 0px;
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 0px;
         padding-right: 0px;
         width: 100%;
@@ -350,7 +350,7 @@ hr{
     }
 
     .modalCloseBtn{
-        font-size: 1.7rem;
+        font-size: 2.5rem;
         /* font-size: 20px; */
     }
 
