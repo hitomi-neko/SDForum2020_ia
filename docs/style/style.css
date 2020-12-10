@@ -217,6 +217,13 @@ hr{
     margin-bottom: 40px;
 }
 
+iframe{
+    width: 100%;
+    height: 80vh;
+    margin: 0,auto;
+}
+
+
 .modalTtl{
     width: 80%;
     text-align: left;
@@ -344,6 +351,12 @@ hr{
         font-size: 0.8rem;
         /* border-left: 3px solid #055582; */
     }
+
+    
+    iframe{
+        height: 40vh;
+    }
+
 
     .modalSent{
         font-size: 0.6rem;
