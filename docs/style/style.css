@@ -252,6 +252,16 @@ iframe{
     text-align: left;
     margin: 0 auto;
     color: #055582;
+    line-height: 2.0rem
+}
+
+.modalSent a{
+    color: #055582;
+    text-decoration: none;
+}
+
+.modalSent a:hover{
+    opacity: 0.5;
 }
 
 .modalCloseBtn{
